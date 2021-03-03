@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 50px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin: 0;
+}
+form {
+  padding: 50px 0px;
+}
+input {
+  background-color: #e8e8e8;
+  border: none;
+  padding: 15px;
+  color: #000000;
+  font-family: 'Monteserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  width: 100%;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin: 0;
+    display: block;
+}
+.wrapper {
+    padding: 10%;
+}
+.info-container {
+    padding-bottom: 5%;
+}
+.form-section {
+    padding-bottom: 5%;
+}
+.form-inputs {
+    display: inline-block;
+    width: 25%;
+    padding-right: 6%;
+}
+.btn {
+  background-color: #D9F0D0;
+  color: #68C242;
+  font-size: 15px;
+  padding: 6% 5%;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #68C242;
+  color: #fff;
+}
+.thank-you {
+    background-color: #03B55C;
+    padding: 10%;
+}
+.thanks-text {
+    color: #fff;
+}
+.btn-container {
+    padding-top: 50px;
+}
+.blue {
+    background-color: #1C1934;
+    padding: 15px 50px;
+    color: #fff;
+    text-decoration: none;
+}
+.blue:hover {
+    color: #03b55c;
+    background-color: #1c1934bf;
+}
+@media screen and (max-width: 768px) {
+    .form-inputs {
+        display: block !important;
+        width: 80%;
+    }
+}

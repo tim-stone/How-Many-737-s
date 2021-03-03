@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>How Many 737's</title>
+    <meta name="description" content="Have you ever wondered 'How many 737's is that?' Well wonder no more.'" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="How Many 737's" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="info-container">
+            <h1>How Many 737's</h1>
+            <p>Have you ever seen something and thought, "I wonder how many Boeing 737's long that is?" Look no further, the team at Things I Learned Last Night have put together this useful tool to solve this problem. Simply input the person, place or thing you are measuring along with it's length or width in feet and Voila. Try it out!</p>
+        </div>
+
+        <div class="form-section">
+            <div class="form-inputs">
+                <label for="item">What are you measuring?</label>
+                <input text="text" id="item" placeholder="Object">
+            </div>
+            <div class="form-inputs">
+                <label for="inputNo">Length or Width in Feet</label>
+                <input type="text" id="inputNo" placeholder="Size">
+            </div>
+            <div class="form-inputs">
+                <input type="submit" class="btn" value="submit" id="submit" onclick="howMany()">
+            </div>
+        </div>
+
+        <div class="result-container">
+            <p id="result"></p>
+        </div>
+
+    </div>
+    <div class="thank-you">
+        <div class="tahnks-info">
+            <h2 class="thanks-text">Thanks For Checking This Out!</h2>
+            <p class="thanks-text">If you liked this, then you'll love our Podcast, Things I Learned Last Night. Watch, Listen or Read all about an episode at tilln.com.</p>
+        </div>
+        <div class="btn-container">
+            <a href="https://tilln.com" class="btn blue">Check it Out</a>
+        </div>
+    </div>
+
+    <script src="assets/js/howmany.js"></script>
+
+</body>
+
+</html>
